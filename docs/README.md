@@ -10,7 +10,7 @@ The following sections provide a high-level summary of our project management ap
 
 OctoAcme's project management process is designed to deliver product features, services, or integrations through clear workflows, well-defined roles, and a focus on transparency and quality. The approach starts with project initiation, including a "One-pager" that clarifies the problem, business need, stakeholders, success metrics, and risks, coupled with alignment across relevant decision-makers before moving to planning. Planning breaks work into shippable increments, prioritizes the backlog with acceptance criteria, and establishes a release plan and risk register using structured templates. Execution is governed by a project board workflow (e.g., Backlog, Ready, In Progress, In Review, QA, Done) and emphasizes frequent, small pull requests, code review, and use of continuous integration pipelines for testing and quality checks.
 
-Roles are explicitly defined to maintain project momentum and clarity: the Project Manager (PM) coordinates delivery, risk, and communication; Product Manager (PdM) owns outcome definition, prioritization, and success measurement; Developers execute on implementation, testing, and documentation. QA/Testers and designated stakeholders round out the ecosystem, ensuring that each aspect of planning, build, and delivery is owned and that feedback cycles are short and actionable. These roles interact according to templates and documented communication norms, ensuring consistent clarity in responsibilities and expectations.
+Roles are explicitly defined to maintain project momentum and clarity: the Project Manager coordinates delivery, risk, and communication; Product Manager owns outcome definition, prioritization, and success measurement; Developers execute implementation, testing, and documentation; QA Lead oversees test planning and quality assurance; Release Manager coordinates release planning and deployment; DevOps Engineer maintains CI/CD pipelines and infrastructure; Stakeholder Manager handles stakeholder communication and expectations; and Agile Coach guides agile practices and continuous improvement. These roles interact according to templates and documented communication norms, ensuring consistent clarity in responsibilities and expectations. For complete role definitions, see [Roles and Personas](octoacme-roles-and-personas.md).
 
 Communication is structured at multiple cadences, including daily standups to address progress and blockers, weekly delivery syncs for risk review and updates, twice-weekly team standups for operational sync, and monthly stakeholder updates. Formal escalation paths exist for blockers or risks, moving from the immediate team to sponsors as needed. Risk management is a continuous process, with ongoing assessment and review at regular team meetings, tracked via a risk register prioritizing mitigation and status updates.
 
@@ -36,14 +36,22 @@ Quality assurance is integrated throughout the lifecycle. Automated unit, integr
 
 ### Supporting Documents
 
-- **[Roles and Personas](octoacme-roles-and-personas.md)** - Detailed definitions of key roles including Developers, Product Managers, and Project Managers, with their responsibilities and communication patterns.
+- **[Roles and Personas](octoacme-roles-and-personas.md)** - Detailed definitions of key roles including Developers, Product Managers, Project Managers, Release Manager, QA Lead, Stakeholder Manager, DevOps Engineer, and Agile Coach, with their responsibilities and communication patterns.
+
+### Templates and Checklists
+
+- **[Role Responsibility Matrix (RACI)](templates-role-responsibility-matrix.md)** - Template for clarifying accountability and decision-making authority across project activities using the RACI framework.
+
+- **[Role Handoff Checklist](templates-role-handoff-checklist.md)** - Checklists for ensuring smooth transitions between project phases and clear handoffs between roles.
 
 ## Getting Started
 
 1. Start with the [Project Management Overview](octoacme-project-management-overview.md) to understand our core principles and approach.
 2. Review the [Roles and Personas](octoacme-roles-and-personas.md) document to understand your responsibilities and how you interact with other team members.
-3. Follow the process documents in order (Initiation → Planning → Execution → Release → Retrospective) as you work through a project lifecycle.
-4. Reference the [Risk Management and Communication](octoacme-risks-and-communication.md) guide regularly to maintain transparency and address issues proactively.
+3. Use the [Role Responsibility Matrix](templates-role-responsibility-matrix.md) to clarify accountability for specific activities.
+4. Follow the [Role Handoff Checklist](templates-role-handoff-checklist.md) to ensure smooth transitions between project phases.
+5. Follow the process documents in order (Initiation → Planning → Execution → Release → Retrospective) as you work through a project lifecycle.
+6. Reference the [Risk Management and Communication](octoacme-risks-and-communication.md) guide regularly to maintain transparency and address issues proactively.
 
 ## Questions or Feedback?
 
@@ -51,4 +59,4 @@ If you have questions about these processes or suggestions for improvement, plea
 
 ---
 
-*Related to issue #2*
+*Related to issue #2 and issue #4*
