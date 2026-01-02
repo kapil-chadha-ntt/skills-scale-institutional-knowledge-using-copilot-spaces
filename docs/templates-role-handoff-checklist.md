@@ -18,7 +18,7 @@ This checklist ensures smooth transitions between project phases and clear hando
 - [ ] Test data or setup instructions provided
 - [ ] Notify QA Lead that feature is ready for testing
 
-### QA Lead Responsibilities  
+### QA Lead Responsibilities
 - [ ] Review acceptance criteria and clarify any ambiguities with Product Manager
 - [ ] Confirm test environment is accessible and stable
 - [ ] Acknowledge handoff and provide testing timeline
